@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Drum Kit</title>
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="script" href="./script.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="banner">
+      <h1>Drum Kit</h1>
+      <p>Technologies Used:</p>
+      <ul>
+        <li class="html">HTML5</li>
+        <li class="css">CSS3</li>
+        <li class="js">JavaScript</li>
+      </ul>
+    </div>
+    <div class="description">
+      <p>Simple JavaScript Drum Kit inspired by the <a href="https://javascript30.com"><strong>#JavaScript30 Challenge</strong></a> by <a href="https://wesbos.com"><strong>Wes Bos</strong></a>.</p>
+    </div>
+    <div class="beats">
+      <div data-key="89" class="beat clap">
+        <h1>Y</h1>
+        <span class="sound">CLAP</span>
+      </div>
+      <div data-key="85" class="beat hihat">
+        <h1>U</h1>
+        <span class="sound">HIHAT</span>
+      </div>
+      <div data-key="73" class="beat kick">
+        <h1>I</h1>
+        <span class="sound">KICK</span>
+      </div>
+      <div data-key="79" class="beat openhat">
+        <h1>O</h1>
+        <span class="sound">OPENHAT</span>
+      </div>
+      <div data-key="72" class="beat cowbell">
+        <h1>H</h1>
+        <span class="sound">COWBELL</span>
+      </div>
+      <div data-key="74" class="beat conga">
+        <h1>J</h1>
+        <span class="sound">CONGA</span>
+      </div>
+      <div data-key="75" class="beat snare">
+        <h1>K</h1>
+        <span class="sound">SNARE</span>
+      </div>
+      <div data-key="76" class="beat tom">
+        <h1>L</h1>
+        <span class="sound">TOM</span>
+      </div>
+    </div>
+  </div>
+</body>
+
+<audio data-key="89" src="sounds/handclap.wav"></audio>
+<audio data-key="85" src="sounds/cl_hihat.wav"></audio>
+<audio data-key="73" src="sounds/kick1.wav"></audio>
+<audio data-key="79" src="sounds/open_hh.wav"></audio>
+<audio data-key="72" src="sounds/cowbell.wav"></audio>
+<audio data-key="74" src="sounds/conga1.wav"></audio>
+<audio data-key="75" src="sounds/snare.wav"></audio>
+<audio data-key="76" src="sounds/tom1.wav"></audio>
+
+<script src="script.js"></script>
+
+</html>

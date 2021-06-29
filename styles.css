@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Montserrat&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background-color: white;
+  padding: 10px;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-areas:
+    "banner banner"
+    "description beats";
+  border: 1px solid;
+}
+
+.banner {
+  grid-area: banner;
+  padding: 30px 10px 10px 10px;
+  border: 1px solid;
+}
+
+h1 {
+  margin: 10px;
+  font-family: 'Dela Gothic One', cursive;
+}
+
+p {
+  margin: 20px 10px 0 10px;
+}
+
+a {
+  color: rgb(224, 167, 165);
+  text-decoration: none;
+}
+
+#link {
+  color: rgb(224, 167, 165);
+}
+
+.html:hover {
+  background-color: #f06529;
+}
+
+.css:hover {
+  background-color: #2965f1;
+}
+
+.js:hover {
+  background-color: #f0db4f;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  float: left;
+  margin: 10px;
+  padding: 10px 15px 10px 15px;
+  border: 2px solid;
+  border-radius: 50px;
+}
+
+.description {
+  grid-area: description;
+  padding: 10px;
+  border: 1px solid;
+}
+
+.beats {
+  display: grid;
+  grid-template-areas:
+    "clap hihat kick openhat"
+    "cowbell conga snare tom";
+  grid-template-columns: repeat(4, 1fr);
+  padding: 0;
+}
+
+.beat {
+  text-align: center;
+  transition: all 0.1s ease;
+  padding: 30px 10px 30px 10px;
+  border: 1px solid;
+}
+
+.playing {
+  background-color: rgb(224, 167, 165);
+}
